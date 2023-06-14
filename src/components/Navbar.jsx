@@ -5,15 +5,15 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
-  const [color, setColor] = useState("transparent");
+  const [color, setColor] = useState("maroon");
   const [textColor, setTextColor] = useState("white");
   const handleNav = () => {
     setNav(!nav);
   };
   return (
     <div
-      style={{ backgroundColor: `${color}` }}
-      className="fixed left-0 top-0 w-full z-10 ease-in-duration-300"
+      style={{ backgroundColor: `${color}`,zIndex:12121212,marginBottom:'20px' }}
+      className="fixed left-0 top-0 w-full z-100- ease-in-duration-300"
     >
       <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-white">
         <Link href="/">

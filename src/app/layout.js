@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-page-custom-font */
 import Navbar from "@/components/Navbar";
 import "./globals.css";
+import Footer from "@/components/Footer";
 
 export const metadata = {
   title: "Create Next App",
@@ -17,10 +18,17 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap"
         />
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+        ></link>
+        
       </head>
       <body>
         <Navbar />
         {children}
+
+        <Footer />
       </body>
     </html>
   );
