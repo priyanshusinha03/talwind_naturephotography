@@ -1,5 +1,6 @@
 import ChiragPaswan from "@/components/AboutUs/ChiragPaswan";
 import Ramvilaspaswan from "@/components/AboutUs/Ramvilaspaswan";
+import SnsEmbed from "@/components/SnsEmbed";
 import React from "react";
 
 const page = () => {
@@ -21,9 +22,8 @@ const page = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 shadow-xl">
         <div className="col-span-2">
           <div className="bg-white text-center p-10 text-xl">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum
-            neque laborum eius hic similique saepe sapiente illum expedita
-            voluptate ue
+            “Reader, suppose you were an idiot. And suppose you were a member of
+            Congress. But I repeat myself.” ― Mark Twain
           </div>
         </div>
         <div>
@@ -92,9 +92,9 @@ const page = () => {
       <br />
       <div className=" pt-10 bg-gradient-to-tr from-red-200 to-slate-50">
         <Ramvilaspaswan />
-        <ChiragPaswan/>
+        <ChiragPaswan />
+        <SnsEmbed />
       </div>
-      
     </div>
   );
 };
