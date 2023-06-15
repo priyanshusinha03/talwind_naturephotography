@@ -4,7 +4,7 @@ import { useState } from "react";
 import Swipe from "react-easy-swipe";
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 import Img1 from "../assets/Images/LJP.jpg";
-import Img2 from "../assets/Images/gd.png";
+import Img2 from "../assets/Images/aboutcp.png";
 
 /**
  * Carousel component for nextJS and Tailwind.
@@ -63,7 +63,7 @@ export default function Carousel() {
               return (
                 // eslint-disable-next-line jsx-a11y/alt-text
                 <Image
-                  key={image.id}
+                  key={index}
                   src={image.src}
                   alt={image.alt}
                   //   width={1280}

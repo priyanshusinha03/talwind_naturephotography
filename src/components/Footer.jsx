@@ -3,11 +3,11 @@
 import React, { useState } from "react";
 
 const Footer = () => {
-  const [enLan, setEnLan] = useState(false);
+  const [enLan, setEnLan] = useState(true);
   return (
     <>
       {enLan ? (
-        <footer class="custom-footer-img">
+        <footer class="bg-gradient-to-tr from-red-900 to-violet-900">
           <div class="mx-auto w-full max-w-screen-xl">
             <div class="grid grid-cols-1 gap-8 px-4 py-6 lg:py-8 md:grid-cols-3">
               <div className=" mx-auto flex pr-10">
